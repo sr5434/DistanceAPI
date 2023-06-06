@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.190.0/testing/asserts.ts";
-import { calc_dist } from "./index"
+import { calc_dist } from "./index.ts"
 
 Deno.test("test distance is zero between the same place", () => {
     const zerodist = calc_dist(10, 10, 10, 10)
